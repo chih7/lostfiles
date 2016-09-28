@@ -141,6 +141,7 @@ relaxed() {
     -wholename '/usr/share/webapps/owncloud/data' -prune -o \
     -wholename '/usr/var/cache' -prune -o \
     -wholename '/usr/var/run' -prune -o \
+    -wholename '/opt' -prune -o \
     -wholename '/var/.updated' -prune -o \
     -wholename '/var/lost+found' -prune -o \
     -wholename '/var/abs' -prune -o \
