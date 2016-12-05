@@ -40,6 +40,8 @@ strict() {
     -wholename '/srv' -prune -o \
     -wholename '/sys' -prune -o \
     -wholename '/tmp' -prune -o \
+    -wholename '/opt' -prune -o \
+    -wholename '/var/cache' -prune -o \
     -wholename '/var/.updated' -prune -o \
     -wholename '/var/lock' -prune -o \
     -wholename '/var/lib' -prune -o \
